@@ -35,7 +35,7 @@ Este proyecto configura un pipeline ETL utilizando Dagster para extraer datos me
     Desde el directorio del proyecto, ejecuta:
 
     ```bash
-    dagit -f etl_job.py
+    dagit -f weather_api_etl.py
     ```
 
     Esto lanzará la interfaz gráfica de Dagit en `http://localhost:3000`.
@@ -43,7 +43,7 @@ Este proyecto configura un pipeline ETL utilizando Dagster para extraer datos me
 2. **Ejecuta el Job**
 
     - Abre tu navegador y navega a `http://localhost:3000`.
-    - Selecciona el `job` que configuraste (por ejemplo, `etl_job`).
+    - Selecciona el `job` que configuraste (por ejemplo, `weather_api_etl`).
     - Haz clic en "Launch Run" para ejecutar el pipeline ETL.
 
 ## Visualización de la Base de Datos SQLite
