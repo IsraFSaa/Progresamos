@@ -1,0 +1,2 @@
+api_key=0cc2b043f9d195f3c7311b154aa9a502
+db_name=weather_data.db

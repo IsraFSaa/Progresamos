@@ -1,4 +1,3 @@
-# Progresamos
 # Proyecto ETL con Dagster
 
 Este proyecto configura un pipeline ETL utilizando Dagster para extraer datos meteorológicos de varias ciudades, transformarlos y cargarlos en una base de datos SQLite.
